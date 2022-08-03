@@ -1,3 +1,8 @@
+:root {
+  --light: #add8e6;
+  --light-border: 3px solid #201799;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -16,7 +21,7 @@ textarea {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: red;
+  color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -43,9 +48,15 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  height: 100px;
+  width: 800px;
+  background-color: var(--light);
+  margin: 5px;
+  border-left: var(--light-border);
+  border-radius: 3%;
   color: white;
 }
+
 
 .present {
   background-color: #ff6961;
@@ -69,3 +80,12 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+section {
+  display: flex;
+}
+
+aside {
+  margin: 5px;
+}
+
