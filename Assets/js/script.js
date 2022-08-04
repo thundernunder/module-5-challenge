@@ -1,7 +1,6 @@
 var today = moment();
 var textAreaEl = $('textarea');
 var sectionEl = $('section');
-var showNine = document.querySelector('#nine-container');
 var saveNine = $('#save-nine');
 var saveTen = $('#save-ten');
 var saveEleven = $('#save-eleven');
