@@ -1,6 +1,10 @@
 :root {
-  --light: #add8e6;
-  --light-border: 3px solid #201799;
+  --past: red;
+  --past-border: 3px solid rgb(68, 3, 21);
+  --present: #74ca74;
+  --present-border: 3px solid #315031;
+  --future: #add8e6;
+  --future-border: 3px solid #201799;
 }
 
 body {
@@ -50,21 +54,31 @@ textarea {
 .past {
   height: 100px;
   width: 800px;
-  background-color: var(--light);
+  background-color: var(--past);
   margin: 5px;
-  border-left: var(--light-border);
+  border-left: var(--past-border);
   border-radius: 3%;
   color: white;
 }
 
 
 .present {
-  background-color: #ff6961;
+  height: 100px;
+  width: 800px;
+  background-color: var(--present);
+  margin: 5px;
+  border-left: var(--present-border);
+  border-radius: 3%;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  height: 100px;
+  width: 800px;
+  background-color: var(--future);
+  margin: 5px;
+  border-left: var(--future-border);
+  border-radius: 3%;
   color: white;
 }
 
