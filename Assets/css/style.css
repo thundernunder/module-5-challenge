@@ -13,14 +13,6 @@ body {
   line-height: 1;
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: none;
-}
-
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -33,18 +25,30 @@ textarea {
   white-space: pre-wrap;
 }
 
-
-.row {
-  width: 100px;
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
+.time-block-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hour {
-  background-color: #ffffff;
+section {
+  display: flex;
+  align-items: center;
+}
+
+aside {
+  margin: 10px;
+  width: 70px;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-left: none;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 .past {
@@ -93,18 +97,34 @@ textarea {
   height: 100px;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+img {
+  height: 100px;
+  width: auto;
+  border: none;
 }
 
-section {
-  display: flex;
-  align-items: center;
+#clear-button {
+  border-radius: 15px;
+  height: 75px;
+  color: white;
+  background-color: #06aed5;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
-aside {
-  margin: 10px;
-  width: 70px;
-}
+
+/* .row {
+  width: 100px;
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+} */
+
+/* .hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+} */
+
 
