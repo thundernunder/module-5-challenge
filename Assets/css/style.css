@@ -39,6 +39,17 @@ textarea {
   border-radius: 15px;
 }
 
+#nine-container {
+  display: none;
+  margin: 5px;
+}
+
+#set-nine-appointment {
+  padding: 10px;
+  font-size: 150%;
+  font-weight: bold;
+}
+
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -80,6 +91,12 @@ textarea {
   border-left: var(--future-border);
   border-radius: 3%;
   color: white;
+}
+
+.past, 
+.present, 
+.future:hover {
+  cursor: pointer;
 }
 
 .saveBtn {
