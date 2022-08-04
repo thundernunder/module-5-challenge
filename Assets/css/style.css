@@ -90,6 +90,7 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  height: 100px;
 }
 
 .saveBtn i:hover {
@@ -99,10 +100,11 @@ textarea {
 
 section {
   display: flex;
+  align-items: center;
 }
 
 aside {
   margin: 10px;
-  width: 60px;
+  width: 70px;
 }
 
