@@ -149,10 +149,13 @@ $('#clear-button').on('click', function () {
     if(confirmClear === false) {
         alert('Phew! That was close');
     } else {
-        alert('Calendar cleared. Refresh the page');
+        alert('Calendar cleared.');
         localStorage.clear();
+        location.reload();
     }
 })
+
+
 
 
 
