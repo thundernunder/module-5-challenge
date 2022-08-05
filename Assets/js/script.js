@@ -34,11 +34,12 @@ for (i=0; i <= textAreaEl.length; i++) {
 
 // event listeners for save buttons to store user input in local storage
 saveNine.on('click', function() {
-        if (textAreaEl.val() === "") {
+        var textNine = $('#text-nine');
+        if (textNine.val() === "") {
             alert ('please enter a valid appointment');
         } else {
             alert('Appointment Saved!');
-            localStorage.setItem('9am', textAreaEl.val());
+            localStorage.setItem('9am', textNine.val());
         }
     }
 )
